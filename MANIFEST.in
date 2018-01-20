@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include google_map *.css
+recursive-include google_map *.csv
+recursive-include google_map *.html
+recursive-include google_map *.ico
+recursive-include google_map *.js
+recursive-include google_map *.json
+recursive-include google_map *.md
+recursive-include google_map *.png
+recursive-include google_map *.py
+recursive-include google_map *.svg
+recursive-include google_map *.txt
+recursive-exclude google_map *.pyc
